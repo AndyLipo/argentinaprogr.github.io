@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Epitelio</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <header>
+        
+    <div class="header-section container">
+        <img type="button" class="logo" onClick="Apertura()" src="./images/Logo (3).png" alt="">
+    <div>
+        <button type="button" class="navbar" onclick="Abre()">Home</button>
+        <button type="button" class="navbar" onclick="Abrir()">About us</button>
+        <button type="button" class="navbar" onclick="Open()">Contact us</button>
+    </div>
+    <img onclick="showCart(this)" class="cart" src="./images/cart.png" alt="">
+        <p class="count-product">0</p>
+        <div class="cart-products" id="products-id">
+            <p class="close-btn" onclick="closeBtn()">X</p>
+            <h3>Mi carrito</h3>
+            <div class="card-items">
+                <!-- <div class="item">
+                    <img src="./images/products/keyboard-1.jpg" alt="">
+                    <div class="item-content">
+                        <h5>name of product name of product name of product</h5>
+                        <h5 class="cart-price">45.50$</h5>
+                        <h6>Amount: 3</h6>
+                    </div>
+                    <span>X</span>
+                </div>
+
+                <div class="item">
+                    <img src="./images/products/keyboard-1.jpg" alt="">
+                    <div class="item-content">
+                        <h5>name of product name of product name of product</h5>
+                        <h5 class="cart-price">45.50$</h5>
+                        <h6>Amount: 3</h6>
+                    </div>
+                    <span class="delete-product" data-id="">X</span>
+                </div> -->
+            </div>
+            <button class="comprar" onclick="Opn()">Comprar</button>
+            <h2>Total: $<strong class="price-total">0</strong></h2>
+        </div>
+    </div>
+</header>
+    
+
+<section class="contacto">
+    <div class="contactos">  
+        <form id="contact" action="" method="post">
+          <h3>Contacto</h3>
+          <h4>Contactenos hoy, y reciba una respuesta dentro de las 24hs !</h4>
+          <fieldset>
+            <input placeholder="Your name" type="text" tabindex="1" required autofocus>
+          </fieldset>
+          <fieldset>
+            <input placeholder="Your Email Address" type="email" tabindex="2" required>
+          </fieldset>
+          <fieldset>
+            <input placeholder="Your Phone Number" type="tel" tabindex="3" required>
+          </fieldset>
+          <fieldset>
+            <textarea placeholder="Type your Message Here...." tabindex="5" required></textarea>
+          </fieldset>
+          <fieldset>
+            <button name="submit" type="submit" id="contact-submit" data-submit="...Sending" >Submit</button>
+          </fieldset>
+        </form>
+       
+        
+      </div>
+</section>
+    
+
+</body>
+<footer>
+    <img class="social">
+        <img src="/images/icons8-instagram-48.png"></img>
+        <img src="/images/icons8-facebook-48.png"></img>
+        <img src="/images/icons8-youtube-play-48.png"></img>
+        <img src="/images/icons8-linkedin-48.png"></img>
+</footer>
+<footer class="footer">
+    <small style="margin-bottom: 20px; display: inline-block">
+        © 2023 made with
+    <span style="color: red; font-size: 18px">&#10084;</span> by -
+        Epitelio
+    </small>
+</footer>
+
+<script src="/main.js" ></script>
+</html>
